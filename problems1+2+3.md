@@ -18,7 +18,7 @@ NSLog(@"The number of words is %ld", wordCount);
 
 ````
 
--(NSUInteger)vowelCount(:Phrase*)phrase {
+-(NSUInteger)vowelCount:(Phrase*)phrase {
 
 NSMutableArray *array = [@[] mutableCopy];
 
