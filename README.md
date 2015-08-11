@@ -11,7 +11,7 @@
 
 
 
--(void)wordCount(Phrase*)phrase {
+-(NSInteger)wordCount:(Phrase*)phrase {
 NSArray *words = [phrase componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 NSInteger wordCount = [words count];
 NSLog(@"The number of words is %ld", wordCount);
@@ -19,7 +19,7 @@ NSLog(@"The number of words is %ld", wordCount);
 
 
 
--(void)vowelCount(Phrase*)phrase {
+-(NSUInteger)vowelCount:(Phrase*)phrase {
 
 NSMutableArray *array = [@[] mutableCopy];
 
