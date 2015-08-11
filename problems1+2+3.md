@@ -7,7 +7,7 @@
 
 ```
 
--(NSUInteger)wordCount:(Phrase*)phrase {
+-(NSInteger)wordCount:(Phrase*)phrase {
 NSArray *words = [phrase componentsSeparatedByCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 NSInteger wordCount = [words count];
 NSLog(@"The number of words is %ld", wordCount);
